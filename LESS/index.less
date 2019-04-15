@@ -1,19 +1,22 @@
 html {
   font-size: 62.5%;
   font-family: sans-serif;
+  max-width: 1600px;
+  margin: auto;
+  padding: 0;
 }
 header {
   width: 100%;
   margin: auto;
-  height: 800px;
+  height: 600px;
   background-image: url("/Images/duy-pham-704498-unsplash.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position:  0;
   .header-cont{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.425);
+    background-color: rgba(0, 0, 0, 0.493);
   }
   nav {
     display: flex;
@@ -22,15 +25,16 @@ header {
     padding: 20px;
 
     h1 {
-      font-size: 2.2rem;
+      font-size: 3rem;
       font-weight: bolder;
       color: white;
+      margin: 0;
     }
   }
   .nav-link-cont {
     padding: 10px;
     a {
-      font-size: 2rem;
+      font-size: 1.4rem;
       padding: 5px 14px;
       color: white;
       text-decoration: none;
@@ -45,8 +49,9 @@ header {
   .signup-cont {
     padding: 20px 0;
     text-align: center;
+    margin: 50px 0;;
     h1 {
-      font-size: 4rem;
+      font-size: 3.4rem;
       font-weight: 300;
       padding: 60px 0;
       color: white;
@@ -63,38 +68,38 @@ header {
 }
 
 section {
-  background-color: rgb(230, 230, 230);
+  background-color: rgba(18, 80, 114, 0.089);
   color: white;
   text-align: center;
-  padding: 100px 20px;
+  padding: 50px 20px;
    h2{
-       font-size: 4.8rem;
+       font-size: 3rem;
        font-weight: bolder;
-       color: rgb(160, 1, 30);
+       color: rgb(37, 44, 47);
    }
   .card {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
-
-    i{
-        font-size: 8rem;
-        padding: 40px 0;
-        color:  #721a12;
+    img{
+      width: 150px;
+      margin: 30px auto;
     }
+
     h2{
-        font-size: 2.8rem;
+        font-size: 2rem;
         color: white;
     }
     h3{
-        font-size: 2rem;
+        font-size: 1.4rem;
         line-height: 34px;
         color: #a9a9a9;
+        padding: 5px;
     }
     div{
-        width: 400px;
+        width: 300px;
         background-color: rgb(37, 44, 47);
         border-radius: 4px;
         height: 400px;
@@ -108,24 +113,36 @@ section {
 footer{
     background-color: rgb(37, 44, 47);
     color: white;
-    padding: 50px 0;
 }
 .foot-link-cont{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
+    padding: 30px 0;
     .foot-group{
         display: flex;
         flex-flow: column;
         h3{
-            font-size: 1.8rem;
+            font-size: 1.2rem;
             border-bottom: 1px solid rgb(224, 224, 224);
         }
         a{
-            font-size: 1.4rem;
+            font-size: 1rem;
             padding: 10px 0 ;
+            text-decoration: none;
+            color: #a9a9a9;
         }
     }
+}
+.que{
+  color: rgb(160, 1, 30)
+}
+.rec {
+  text-align: center;
+  a{
+    text-decoration: none;
+    color: grey;
+  }
 }
