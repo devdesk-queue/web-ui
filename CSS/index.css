@@ -3,20 +3,29 @@ html {
   font-family: sans-serif;
 }
 header {
-  width: 90%;
+  width: 100%;
   margin: auto;
-  height: 500px;
-  background-image: url("/Images/john-schnobrich-520023-unsplash.jpg");
+  height: 800px;
+  background-image: url("/Images/duy-pham-704498-unsplash.jpg");
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 100%;
+  background-position: 0;
+}
+header .header-cont {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.425);
 }
 header nav {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  padding: 20px;
 }
 header nav h1 {
   font-size: 2.2rem;
+  font-weight: bolder;
+  color: white;
 }
 header .nav-link-cont {
   padding: 10px;
@@ -24,7 +33,7 @@ header .nav-link-cont {
 header .nav-link-cont a {
   font-size: 2rem;
   padding: 5px 14px;
-  color: #a0011e;
+  color: white;
   text-decoration: none;
 }
 header .nav-link-cont .btn {
@@ -33,33 +42,40 @@ header .nav-link-cont .btn {
   color: white;
 }
 header .signup-cont {
-  padding: 80px 0;
+  padding: 20px 0;
+  text-align: center;
 }
 header .signup-cont h1 {
   font-size: 4rem;
   font-weight: 300;
+  padding: 60px 0;
+  color: white;
 }
 header .signup-cont a {
   font-size: 1.8rem;
-  padding: 14px 22px;
+  padding: 14px 40px;
   border-radius: 4px;
   font-weight: 700;
   background-color: #a0011e;
   color: white;
 }
 section {
-  background-color: #125172;
+  background-color: #e6e6e6;
   color: white;
   text-align: center;
   padding: 100px 20px;
 }
 section h2 {
-  font-size: 3.8rem;
+  font-size: 4.8rem;
+  font-weight: bolder;
+  color: #a0011e;
 }
 section .card {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  max-width: 1400px;
+  margin: auto;
 }
 section .card i {
   font-size: 8rem;
@@ -68,6 +84,7 @@ section .card i {
 }
 section .card h2 {
   font-size: 2.8rem;
+  color: white;
 }
 section .card h3 {
   font-size: 2rem;
@@ -79,7 +96,8 @@ section .card div {
   background-color: #252c2f;
   border-radius: 4px;
   height: 400px;
-  box-shadow: 5px 5px 10px #383838;
+  box-shadow: 5px 5px 10px rgba(56, 56, 56, 0.486);
+  margin: 10px;
 }
 footer {
   background-color: #252c2f;
@@ -90,6 +108,8 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  max-width: 1400px;
+  margin: auto;
 }
 .foot-link-cont .foot-group {
   display: flex;
@@ -97,7 +117,7 @@ footer {
 }
 .foot-link-cont .foot-group h3 {
   font-size: 1.8rem;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #e0e0e0;
 }
 .foot-link-cont .foot-group a {
   font-size: 1.4rem;
