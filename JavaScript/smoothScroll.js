@@ -1,4 +1,4 @@
-
+//could  have just set scroll behavior in css but.. yuh know.. whatevs.. #mvp
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -22,3 +22,8 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+document.querySelector('.clickerdoo').style.cursor = "pointer"; //Hide or show credits
+const reveal  = () => {
+    document.querySelector('.rec').classList.toggle('show');
+}
