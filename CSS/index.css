@@ -25,12 +25,6 @@ header nav {
   justify-content: space-between;
   padding: 20px;
 }
-header nav h1 {
-  font-size: 3rem;
-  font-weight: bolder;
-  color: white;
-  margin: 0;
-}
 header .nav-link-cont {
   padding: 10px;
 }
@@ -65,15 +59,14 @@ header .signup-cont a {
   color: white;
 }
 section {
-  background-color: rgba(18, 80, 114, 0.089);
-  color: white;
+  background-color: #e9e9e9;
+  color: #434343;
   text-align: center;
-  padding: 50px 20px;
+  padding: 4px 0px;
 }
 section h2 {
   font-size: 3rem;
   font-weight: bolder;
-  color: #252c2f;
 }
 section .card {
   display: flex;
@@ -83,25 +76,22 @@ section .card {
   margin: auto;
 }
 section .card img {
-  width: 150px;
+  width: 100px;
   margin: 30px auto;
 }
 section .card h2 {
   font-size: 2rem;
-  color: white;
+  color: #434343;
 }
 section .card h3 {
   font-size: 1.4rem;
   line-height: 34px;
-  color: #a9a9a9;
-  padding: 5px;
+  color: #605f5f;
 }
 section .card div {
   width: 300px;
-  background-color: #252c2f;
   border-radius: 4px;
   height: 400px;
-  box-shadow: 5px 5px 10px rgba(56, 56, 56, 0.486);
   margin: 10px;
 }
 footer {
@@ -130,13 +120,16 @@ footer {
   text-decoration: none;
   color: #a9a9a9;
 }
-.que {
-  color: #a0011e;
-}
 .rec {
   text-align: center;
 }
 .rec a {
   text-decoration: none;
   color: grey;
+}
+.about-head {
+  background-color: white;
+  background-image: none;
+  height: auto;
+  background-color: #605f5f1a;
 }
