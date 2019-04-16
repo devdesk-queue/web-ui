@@ -1,3 +1,31 @@
+header nav .hiw {
+  color: red;
+}
+.about-head {
+  background-color: white;
+  background-image: none;
+  height: auto;
+  background-color: #605f5f1a;
+}
+.about-cont {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+  flex-flow: row wrap;
+}
+.about-cont div {
+  padding: 20px;
+}
+.about-cont div img {
+  width: 200px;
+  height: 200px;
+}
+.about-cont div h2 {
+  font-size: 2.6rem;
+}
+.about-cont div p {
+  font-size: 1.8rem;
+}
 html {
   font-size: 62.5%;
   font-family: sans-serif;
@@ -24,6 +52,7 @@ header nav {
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 20px;
+  background-color: #f6f6f652;
 }
 header .nav-link-cont {
   padding: 10px;
@@ -126,10 +155,4 @@ footer {
 .rec a {
   text-decoration: none;
   color: grey;
-}
-.about-head {
-  background-color: white;
-  background-image: none;
-  height: auto;
-  background-color: #605f5f1a;
 }
