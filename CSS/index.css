@@ -139,6 +139,12 @@ header nav {
   padding: 20px;
   background-color: #f6f6f652;
 }
+@media (max-width: 500px) {
+  header nav {
+    flex-flow: column;
+    align-items: center;
+  }
+}
 header .nav-link-cont {
   padding: 10px;
 }
@@ -150,6 +156,17 @@ header .nav-link-cont a {
 }
 header .nav-link-cont a:hover {
   text-decoration: underline;
+}
+@media (max-width: 500px) {
+  header .nav-link-cont a:first-child {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 500px) {
+  header .nav-link-cont a {
+    display: block;
+    text-align: center;
+  }
 }
 header .signup-cont {
   padding: 20px 0;

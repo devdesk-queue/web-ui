@@ -17,6 +17,10 @@ header {
     justify-content: space-between;
     padding: 20px;
     background-color: #f6f6f652;
+    @media @phone{
+      flex-flow: column;
+      align-items: center;
+    }
   }
   .nav-link-cont {
     padding: 10px;
@@ -27,6 +31,15 @@ header {
       text-decoration: none;
       &:hover {
         text-decoration: underline;
+      }
+      &:first-child{
+        @media @phone {
+          margin-bottom: 10px;
+        }
+      }
+      @media @phone{
+        display: block;
+        text-align: center;
       }
     }
   }
