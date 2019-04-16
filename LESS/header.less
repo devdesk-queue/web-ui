@@ -11,12 +11,20 @@ header {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.493);
   }
+  .logo{
+   max-width: 197px * 0.7px;
+   max-height: 59px * 0.7px;
+  }
   nav {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     padding: 20px;
     background-color: #f6f6f652;
+    @media @phone{
+      flex-flow: column;
+      align-items: center;
+    }
   }
   .nav-link-cont {
     padding: 10px;
@@ -27,6 +35,15 @@ header {
       text-decoration: none;
       &:hover {
         text-decoration: underline;
+      }
+      &:first-child{
+        @media @phone {
+          margin-bottom: 10px;
+        }
+      }
+      @media @phone{
+        display: block;
+        text-align: center;
       }
     }
   }

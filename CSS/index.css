@@ -18,6 +18,8 @@ header nav .hiw {
 }
 .about-cont div img {
   width: 200px;
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
 }
 .about-cont div h2 {
   font-size: 2.6rem;
@@ -76,11 +78,15 @@ footer img {
   color: #a0011e;
 }
 .rec {
+  display: none;
   text-align: center;
 }
 .rec a {
   text-decoration: none;
   color: grey;
+}
+.show {
+  display: block;
 }
 section {
   background-color: #e9e9e9;
@@ -132,12 +138,22 @@ header .header-cont {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.493);
 }
+header .logo {
+  max-width: 137.9px;
+  max-height: 41.3px;
+}
 header nav {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 20px;
   background-color: #f6f6f652;
+}
+@media (max-width: 500px) {
+  header nav {
+    flex-flow: column;
+    align-items: center;
+  }
 }
 header .nav-link-cont {
   padding: 10px;
@@ -150,6 +166,17 @@ header .nav-link-cont a {
 }
 header .nav-link-cont a:hover {
   text-decoration: underline;
+}
+@media (max-width: 500px) {
+  header .nav-link-cont a:first-child {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 500px) {
+  header .nav-link-cont a {
+    display: block;
+    text-align: center;
+  }
 }
 header .signup-cont {
   padding: 20px 0;
