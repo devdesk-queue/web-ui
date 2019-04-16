@@ -1,0 +1,60 @@
+header {
+  width: 100%;
+  margin: auto;
+  height: 600px;
+  background-image: url("/Images/duy-pham-704498-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
+  .header-cont {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.493);
+  }
+  nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f6f6f652;
+  }
+  .nav-link-cont {
+    padding: 10px;
+    a {
+      font-size: 1.4rem;
+      padding: 5px 14px;
+      color: white;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .signup-cont {
+    padding: 20px 0;
+    text-align: center;
+    margin: 50px 0;
+    h1 {
+      font-size: 3.4rem;
+      font-weight: 300;
+      padding: 60px 0;
+      color: white;
+    }
+    a {
+      font-size: 1.8rem;
+      padding: 14px 40px;
+      font-weight: 700;
+    }
+  }
+}
+.btn {
+  border-radius: 4px;
+  background-color: rgb(160, 1, 30);
+  color: white;
+  transition: background-color 0.1s ease-in-out;
+  &:hover {
+    background-color: rgb(228, 0, 42);
+    cursor: pointer;
+  }
+}
