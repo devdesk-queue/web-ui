@@ -1,5 +1,5 @@
 # web-ui
-This repository will serve as the marketing landing page and secondary page for devdes queue application
+This repository will serve as the marketing landing page and secondary page for DevDesk Queue application
 
 ## Proposal
 Students at lambda school need a place where they can escalate their concerns and receive help. This app allows an admin to manage help desk tickets that come in from Lambda School Students. It also allows students (A 2nd user type) to submit a help desk ticket, categorize it and post it to the help channel.
