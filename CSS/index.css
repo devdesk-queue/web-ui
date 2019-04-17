@@ -193,6 +193,7 @@ header .signup-cont a {
   font-size: 1.8rem;
   padding: 14px 40px;
   font-weight: 700;
+  text-decoration: none;
 }
 .btn {
   border-radius: 4px;
