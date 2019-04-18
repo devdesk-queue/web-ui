@@ -6,7 +6,6 @@ footer {
     width: 100px;
     padding: 5px;
     margin-bottom: 15px;
-    background-color: rgba(255, 255, 255, 0.171);
     border-radius: 4px;
   }
 }
@@ -17,15 +16,13 @@ footer {
   max-width: 1200px;
   margin: auto;
   padding: 30px 0;
-  .foot-group {
-    display: flex;
+
+  @media @phone {
     flex-flow: column;
-    h3 {
-      font-size: 1.2rem;
-      border-bottom: 1px solid rgb(224, 224, 224);
-    }
+  }
+  
     a {
-      font-size: 1rem;
+      font-size: 1.6rem;
       padding: 10px 0;
       text-decoration: none;
       color: #a9a9a9;
@@ -35,10 +32,14 @@ footer {
       }
     }
   }
-}
-.que {
-  color: rgb(160, 1, 30);
-}
+// .que {
+//   color: rgb(160, 1, 30);
+// }
+
+
+
+
+//credits
 .rec {
   display: none;
   text-align: center;
