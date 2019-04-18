@@ -66,26 +66,15 @@ footer img {
     flex-flow: column;
   }
 }
-.foot-link-cont .foot-group {
-  display: flex;
-  flex-flow: column;
-}
-.foot-link-cont .foot-group h3 {
+.foot-link-cont a {
   font-size: 1.6rem;
-  border-bottom: 1px solid #e0e0e0;
-}
-.foot-link-cont .foot-group a {
-  font-size: 1.4rem;
   padding: 10px 0;
   text-decoration: none;
   color: #a9a9a9;
 }
-.foot-link-cont .foot-group a:hover {
+.foot-link-cont a:hover {
   color: white;
   text-decoration: underline;
-}
-.que {
-  color: #a0011e;
 }
 .rec {
   display: none;
