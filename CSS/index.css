@@ -232,6 +232,65 @@ header .signup-cont a {
   font-size: 1.6rem;
   line-height: 2.6rem;
 }
+.privacy-cont {
+  padding: 50px;
+  text-align: left;
+}
+@media (max-width: 515px) {
+  .privacy-cont {
+    padding: 5px;
+    text-align: center;
+  }
+}
+.privacy-cont div {
+  max-width: 500px;
+  margin: auto;
+}
+.privacy-cont div h1 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+.privacy-cont div h2 {
+  font-size: 2.4rem;
+  font-weight: 200;
+}
+@media (max-width: 515px) {
+  .privacy-cont div h2 {
+    border-bottom: 1px solid grey;
+  }
+}
+@media (max-width: 515px) {
+  .privacy-cont div h3::before {
+    content: "# ";
+  }
+}
+@media (max-width: 515px) {
+  .privacy-cont div h4::before {
+    content: "- ";
+  }
+}
+@media (max-width: 515px) {
+  .privacy-cont div li {
+    text-align: left;
+  }
+}
+@media (max-width: 515px) {
+  .privacy-cont div p {
+    text-align: left;
+    padding: 0 14px;
+  }
+}
+.privacy-cont div strong {
+  font-weight: 700;
+}
+.privacy-cont div h3,
+.privacy-cont div strong,
+.privacy-cont div p,
+.privacy-cont div li,
+.privacy-cont div h4 {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
 html {
   font-size: 62.5%;
   font-family: sans-serif;
