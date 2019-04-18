@@ -27,14 +27,20 @@ header nav .hiw {
 .about-cont div p {
   font-size: 1.8rem;
 }
-.about-cont div i {
+.about-cont div .gh,
+.about-cont div .tw {
   font-size: 20px;
   color: #303030;
   transition: transform 0.2s ease-in-out;
+  margin: 0 10px;
 }
-.about-cont div i:hover {
+.about-cont div .gh:hover,
+.about-cont div .tw:hover {
   color: #a0011e;
   transform: scale(1.5);
+}
+.about-cont div .tw:hover {
+  color: #1da1f2;
 }
 footer {
   background-color: #252c2f;
