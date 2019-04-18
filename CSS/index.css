@@ -210,6 +210,10 @@ header .signup-cont a {
   background-color: #e4002a;
   cursor: pointer;
 }
+.legal-cont div {
+  max-width: 500px;
+  margin: auto;
+}
 html {
   font-size: 62.5%;
   font-family: sans-serif;
