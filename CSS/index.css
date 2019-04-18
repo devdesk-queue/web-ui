@@ -138,8 +138,8 @@ header .header-cont {
   background-color: rgba(0, 0, 0, 0.493);
 }
 header .logo {
-  max-width: 137.9px;
-  max-height: 41.3px;
+  max-width: 197px ;
+  max-height: 59px ;
 }
 header nav {
   display: flex;
