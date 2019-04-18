@@ -17,15 +17,24 @@ footer {
   max-width: 1200px;
   margin: auto;
   padding: 30px 0;
+
+  @media @phone {
+    flex-flow: column;
+  }
   .foot-group {
     display: flex;
     flex-flow: column;
+    // @media @phone {
+    //   // height: 40px;
+    //   // overflow: hidden;
+    //   // transition: 1s ease;
+    // }
     h3 {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       border-bottom: 1px solid rgb(224, 224, 224);
     }
     a {
-      font-size: 1rem;
+      font-size: 1.4rem;
       padding: 10px 0;
       text-decoration: none;
       color: #a9a9a9;
