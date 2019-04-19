@@ -18,30 +18,34 @@ header {
   flex-flow: row wrap;
   div {
     padding: 20px;
+    border-bottom: @lightBlue 2px solid;
+    margin: 16px 10px;
     img {
-      width: 200px;
-      box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.24);
-      border-radius: 4px;
+      width: 160px;
+      border-radius: 50%;
     }
     h2 {
       font-size: 2.6rem;
+      color: rgb(73, 73, 73);
     }
     p {
       font-size: 1.8rem;
+      color: @grey;
+      font-weight: bold;
     }
     .gh, .tw{
       font-size: 20px;
-      color: rgb(48, 48, 48);
+      color: @grey;
       transition: transform 0.2s ease-in-out;
       margin: 0 10px;
       &:hover {
-        color: rgb(160, 1, 30);
+        color: @red;
         transform: scale(1.5);
       }
     }
     .tw{
       &:hover{
-        color: #1da1f2;
+        color: @lightBlue;
       }
     }
   }
