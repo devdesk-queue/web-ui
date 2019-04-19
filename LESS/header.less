@@ -9,70 +9,76 @@ header {
   .header-cont {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.493);
+    background-color: rgba(0, 0, 0, 0.37);
   }
-  .logo{
-   max-width: 197px ;
-   max-height: 59px ;
-  }
-  nav {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #f6f6f652;
-    @media @phone{
-      flex-flow: column;
-      align-items: center;
-    }
-  }
-  .nav-link-cont {
-    padding: 10px;
-    .hiw:hover{
-      text-decoration: underline;
-    }
-    a {
-      font-size: 2rem;
-      padding: 5px 30px;
-      color: white;
-      text-decoration: none;
-      &:first-child{
-        @media @phone {
-          margin-bottom: 10px;
-        }
-      }
-      @media @phone{
-        display: block;
-        text-align: center;
-      }
-    }
-  }
+  
 
   .signup-cont {
     padding: 20px 0;
     text-align: center;
-    margin: 50px 0;
+    margin: 0;
     h1 {
       font-size: 3.4rem;
-      font-weight: 300;
+      font-weight: bold;
       padding: 60px 0;
-      color: white;
+      color: #ffffff;
+      margin-top: 100px;
     }
     a {
       font-size: 1.8rem;
       padding: 14px 40px;
-      font-weight: 700;
+      font-weight: 100;
       text-decoration: none;
     }
   }
 }
+.logo{
+  width: 2000px *.08;
+  height: 558px*.08;
+ }
+ nav {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   padding: 22px;
+   background-color: #ffffff;
+   @media @phone{
+     flex-flow: column;
+     align-items: center;
+   }
+ }
+ .nav-link-cont {
+   padding: 10px;
+   .hiw{
+     color: @grey;
+      &:hover{
+     text-decoration: underline;
+   }
+   }
+  
+   a {
+     font-size: 2rem;
+     padding: 5px 22px;
+     color: rgb(255, 255, 255);
+     text-decoration: none;
+     &:first-child{
+       @media @phone {
+         margin-bottom: 10px;
+       }
+     }
+     @media @phone{
+       display: block;
+       text-align: center;
+     }
+   }
+ }
 .btn {
-  border-radius: 4px;
-  background-color: rgb(160, 1, 30);
-  color: white;
+  border-radius: 2px;
+  background-color: @red;
+  color: rgb(255, 255, 255);
   transition: background-color 0.1s ease-in-out;
   &:hover {
-    background-color: rgb(228, 0, 42);
+    background-color: #df173c;
     cursor: pointer;
   }
 }

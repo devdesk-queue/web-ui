@@ -28,7 +28,6 @@ const cardCreater = (i, n, t, gh, tw) => { //Creates DOM elements
     const a_tw = document.createElement("a");
     const itag_gh = document.createElement('i');
     const itag_tw = document.createElement('i');
-    const hr = document.createElement('hr');
 
     section.appendChild(div);
     div.appendChild(img);
@@ -36,7 +35,6 @@ const cardCreater = (i, n, t, gh, tw) => { //Creates DOM elements
     div.appendChild(p);
     div.appendChild(a_gh);
     div.appendChild(a_tw);
-    div.appendChild(hr);
     a_gh.appendChild(itag_gh);
     a_tw.appendChild(itag_tw);
 

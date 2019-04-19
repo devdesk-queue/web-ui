@@ -1,3 +1,4 @@
+// Imports
 @import "about";
 @import "footer";
 @import "section";
@@ -5,11 +6,24 @@
 @import 'legal';
 @import 'privacy';
 
+// Media Queries
 @phone:    ~"(max-width: 515px)";
+
+// Variables
+@red: #bb1333;
+@deepBlue: #002070;
+@midBlue: #1e50ee;
+@lightBlue: #08addd;
+@grey: #55596d;
+
+@font-face{
+  font-family: "Lato";
+  src: url(/Fonts/Lato-Light.ttf);
+}
 
 html {
   font-size: 62.5%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:  'Lato', Arial, Helvetica, sans-serif;
   max-width: 1600px;
   margin: auto;
   padding: 0;
