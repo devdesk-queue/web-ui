@@ -93,7 +93,7 @@ footer img {
 section {
   background-color: #e9e9e9;
   text-align: center;
-  padding: 100px 20px;
+  padding: 50px 20px;
 }
 section .htqw {
   padding-bottom: 70px;
@@ -136,6 +136,11 @@ section .card div {
   width: 288px;
   margin: 20px 10px;
   text-align: left;
+}
+@media (max-width: 1000px) {
+  section .card div {
+    text-align: center;
+  }
 }
 header {
   width: 100%;
